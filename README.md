@@ -97,7 +97,7 @@ df4.head()
 ```
 ![4-5](https://github.com/Divya110205/EXNO-4-DS/assets/119404855/996daa6d-0915-4c89-8cd2-e3a756a1faa7)
 
-   ### The best feature scaling methods for 'bmi' dataset could be MinMax Scaling.MinMax Scaling scales the data to a fixed range, preserving the original range of the data.While MinMax Scaling is sensitive to outliers, it can still be effective if your dataset does not contain extreme outliers.
+### The best feature scaling methods for 'bmi' dataset could be MinMax Scaling.MinMax Scaling scales the data to a fixed range, preserving the original range of the data.While MinMax Scaling is sensitive to outliers, it can still be effective if your dataset does not contain extreme outliers.
 ## FEATURE SELECTION:
 ```
 import pandas as pd
@@ -173,4 +173,5 @@ print(selected_features)
 
 ###   For this 'income' dataset, Embedded Method is best for feature selection.Embedded methods provide feature importance scores directly within the context of the chosen model. Embedded methods automatically select relevant features during model training, which can be beneficial for reducing overfitting and improving generalization performance
 # RESULT:
-     Thus, Feature selection and Feature scaling has been performed using the given dataset.
+
+Thus, Feature selection and Feature scaling has been performed using the given dataset.
